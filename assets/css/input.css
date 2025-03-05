@@ -1,0 +1,184 @@
+@import 'tailwindcss';
+@theme {
+  --color-secondary: #f2f0f1;
+  --font-integralcf-bold: 'integralcf-bold';
+  --font-Satoshi-Bold: 'Satoshi-Bold';
+  --font-Satoshi-Light: 'Satoshi-Light';
+  --font-Satoshi-Regular: 'Satoshi-Regular';
+  --font-Satoshi-Medium: 'Satoshi-Medium';
+}
+@layer {
+  .container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 77.5rem;
+  }
+  @font-face {
+    font-family: 'integralcf-bold';
+    src: url('../fonts/Integral_CF/integralcf-bold.woff') format('woff');
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Satoshi-Light';
+    src: url('../fonts/shatosi/Satoshi-Light.woff') format('woff');
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('../fonts/shatosi/Satoshi-Regular.woff') format('woff');
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Satoshi-Medium';
+    src: url('../fonts/shatosi/Satoshi-Medium.woff') format('woff');
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Satoshi-Bold';
+    src: url('../fonts/shatosi/Satoshi-Bold.woff') format('woff');
+    font-display: swap;
+    font-style: normal;
+  }
+  body {
+    font-family: 'Satoshi-Light';
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: 0.05rem;
+  }
+  h1,
+  h2 {
+    font-family: var(--font-integralcf-bold);
+    color: rgba(0, 0, 0, 1);
+  }
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-Satoshi-Bold);
+  }
+  p {
+    font-family: var(--font-Satoshi-Light);
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: 0.05rem;
+  }
+  .t_h_text {
+    font-family: var(--font-Satoshi-Light);
+    font-size: clamp(0.75rem, 0.6741rem + 0.2232vw, 0.875rem);
+    color: rgba(255, 255, 255, 1);
+  }
+  .logo {
+    font-family: var(--font-integralcf-bold);
+    font-size: clamp(1.5625rem, 1.2969rem + 0.7813vw, 2rem);
+  }
+  .big_title {
+    font-family: var(--font-integralcf-bold);
+    font-size: clamp(2.125rem, 0.6595rem + 4.3103vw, 4rem);
+    line-height: clamp(2.125rem, 0.9866rem + 3.3482vw, 4rem);
+  }
+  .h_title {
+    font-family: var(--font-integralcf-bold);
+    font-size: clamp(2rem, 1.3929rem + 1.7857vw, 3rem);
+    line-height: clamp(2.375rem, 1.6161rem + 2.2321vw, 3.625rem);
+    text-transform: uppercase;
+  }
+
+  .c_number {
+    font-size: clamp(1.5rem, 0.8929rem + 1.7857vw, 2.5rem);
+    color: rgba(0, 0, 0, 1);
+  }
+  .c_text {
+    font-family: var(--font-Satoshi-Light);
+    font-size: clamp(0.75rem, 0.5982rem + 0.4464vw, 1rem);
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .p_img {
+    object-fit: cover;
+    object-position: center;
+    width: 295px;
+    height: 298px;
+    border-radius: 30px;
+  }
+  .p_title {
+    font-family: var(--font-Satoshi-Bold);
+    font-size: clamp(0.875rem, 0.7991rem + 0.2232vw, 1rem);
+    line-height: clamp(1.25rem, 1.1741rem + 0.2232vw, 1.375rem);
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 0.05rem;
+  }
+  .p_price {
+    font-family: var(--font-Satoshi-Bold);
+    font-size: clamp(1.25rem, 1.0982rem + 0.4464vw, 1.5rem);
+  }
+  .p_price_off {
+    font-family: var(--font-Satoshi-Bold);
+    font-size: clamp(1.25rem, 1.0982rem + 0.4464vw, 1.5rem);
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration-line: line-through;
+  }
+  .p_price_less {
+    font-family: var(--font-Satoshi-Medium);
+    font-size: clamp(0.625rem, 0.5491rem + 0.2232vw, 0.75rem);
+    color: rgba(255, 51, 51, 1);
+  }
+  .p_rating {
+    font-size: clamp(0.75rem, 0.6741rem + 0.2232vw, 0.875rem);
+  }
+  .p_c_title {
+    font-size: clamp(1.5rem, 1.0446rem + 1.3393vw, 2.25rem);
+  }
+
+  .t_title {
+    font-size: clamp(1rem, 0.8482rem + 0.4464vw, 1.25rem);
+  }
+  .t_paragraph {
+    font-size: clamp(0.875rem, 0.7991rem + 0.2232vw, 1rem);
+  }
+  .call_title {
+    color: rgba(255, 255, 255, 1);
+    font-size: clamp(2rem, 1.6964rem + 0.8929vw, 2.5rem);
+  }
+  .primary_button {
+    @apply bg-black text-white mx-auto block w-full md:w-60  h-15 rounded-4xl text-base md:mr-auto md:inline-block md:my-3;
+  }
+  .secondary_button {
+    @apply text-black mx-auto block w-full md:w-60  h-15 rounded-4xl text-base md:mr-auto md:inline-block md:my-3 ring-1 ring-gray-200 shadow-2xs  my-5;
+  }
+  .active_width::before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    inset: 0;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+  }
+  .custom_ceck {
+    cursor: pointer;
+  }
+  .custom_ceck::after {
+    position: absolute;
+    content: '';
+    height: 1rem;
+    width: 1rem;
+    background: url(https://i.postimg.cc/j2CzsHbV/chech-icon.png) no-repeat top
+      center;
+    background-size: cover;
+    inset: 0;
+    margin: auto;
+    display: none;
+  }
+  .custom_ceck:checked::after {
+    display: block;
+  }
+  @media (width >= 48rem) {
+  }
+}

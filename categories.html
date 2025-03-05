@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories Page</title>
+    <link rel="stylesheet" href="assets/css/output.css">
+</head>
+
+<body>
+    <div class="container px-5 py-5 md:px-0 flex items-center justify-start gap-2">
+        <h6>Home</h6>
+        <img class="w-4 h-4" src="https://i.postimg.cc/RVXTYGcS/right-arrow.png" alt="">
+        <h6>Shop</h6>
+        <img class="w-4 h-4" src="https://i.postimg.cc/RVXTYGcS/right-arrow.png" alt="">
+        <h6>Men</h6>
+        <img class="w-4 h-4" src="https://i.postimg.cc/RVXTYGcS/right-arrow.png" alt="">
+        <h6>T-shirt</h6>
+    </div>
+    <section>
+        <div class="container md:flex items-start gap-5">
+            <!-- Left filter Container -->
+            <div class="filter_container px-5 mb-5 md:mb-0 border border-gray-300 rounded-3xl py-5 md:w-3/12">
+                <div class="flex justify-between items-center mb-4">
+                    <h4 class="text-black text-[1.2rem]">Filter</h4>
+                    <img class="w-5 h-5 hidden md:block" src="https://i.postimg.cc/9fGGDWzJ/setting-icon.png" alt="">
+                    <img class="w-5 h-5 block md:hidden" src="https://i.postimg.cc/Qxh449Gk/cross-icon-gray.png" alt="">
+                </div>
+
+                <hr class="w-11.5/12 h-[1px] text-gray-300 mx-auto my-5">
+                <div>
+                    <ul>
+                        <li class="flex justify-between items-center mb-4">
+                            <h6>T-shirts</h6> <img src="https://i.postimg.cc/RVXTYGcS/right-arrow.png" alt="">
+                        </li>
+                        <li class="flex justify-between items-center mb-4">
+                            <h6>Shorts</h6> <img src="https://i.postimg.cc/RVXTYGcS/right-arrow.png" alt="">
+                        </li>
+                        <li class="flex justify-between items-center mb-4">
+                            <h6>Shirts</h6> <img src="https://i.postimg.cc/RVXTYGcS/right-arrow.png" alt="">
+                        </li>
+                        <li class="flex justify-between items-center mb-4">
+                            <h6>Hoodie</h6> <img src="https://i.postimg.cc/RVXTYGcS/right-arrow.png" alt="">
+                        </li>
+                        <li class="flex justify-between items-center mb-4">
+                            <h6>Jeans</h6> <img src="https://i.postimg.cc/RVXTYGcS/right-arrow.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <hr class="w-11.5/12 h-[1px] text-gray-300 mx-auto my-5">
+                <div class="flex justify-between items-center mb-4">
+                    <h4 class="text-black text-[1.2rem]">Price</h4>
+                    <img class="w-5 h-5 -rotate-90 " src="https://i.postimg.cc/RVXTYGcS/right-arrow.png" alt="">
+                </div>
+                <div>
+                    <label for="default-range"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Default range</label>
+                    <input id="default-range" type="range" value="50"
+                        class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
+                </div>
+                <hr class="w-11.5/12 h-[1px] text-gray-300 mx-auto my-5">
+                <div class="flex justify-between items-center mb-4">
+                    <h4 class="text-black text-[1.2rem]">Color</h4>
+                    <img class="w-5 h-5 -rotate-90 " src="https://i.postimg.cc/RVXTYGcS/right-arrow.png" alt="">
+                </div>
+                <div class="grid grid-cols-5  gap-5 justify-items-center  mb-5 mt-2.5">
+                    <input type="checkbox" id="option1" name="option"
+                        class="appearance-none bg-[#00C12B] w-10 h-10 rounded-full relative custom_ceck ">
+                    <input type="checkbox" id="option1" name="option"
+                        class="appearance-none bg-[#F50606] w-10 h-10 rounded-full relative custom_ceck ">
+                    <input type="checkbox" id="option1" name="option"
+                        class="appearance-none bg-[#F5DD06] w-10 h-10 rounded-full relative custom_ceck ">
+                    <input type="checkbox" id="option1" name="option"
+                        class="appearance-none bg-[#F57906] w-10 h-10 rounded-full relative custom_ceck ">
+                    <input type="checkbox" id="option1" name="option"
+                        class="appearance-none bg-[#06CAF5] w-10 h-10 rounded-full relative custom_ceck ">
+                    <input type="checkbox" id="option1" name="option"
+                        class="appearance-none bg-[#063AF5] w-10 h-10 rounded-full relative custom_ceck ">
+                    <input type="checkbox" id="option1" name="option"
+                        class="appearance-none bg-[#7D06F5] w-10 h-10 rounded-full relative custom_ceck ">
+                    <input type="checkbox" id="option1" name="option"
+                        class="appearance-none bg-[#F506A4] w-10 h-10 rounded-full relative custom_ceck ">
+                    <input type="checkbox" id="option1" name="option"
+                        class="appearance-none bg-[#fff] w-10 h-10 border border-gray-300 rounded-full relative custom_ceck ">
+                    <input type="checkbox" id="option1" name="option"
+                        class="appearance-none bg-[#000] w-10 h-10 rounded-full relative custom_ceck ">
+                </div>
+
+                <hr class="w-11.5/12 h-[1px] text-gray-300 mx-auto my-5">
+                <div class="flex justify-between items-center mb-4">
+                    <h4 class="text-black text-[1.2rem]">Size</h4>
+                    <img class="w-5 h-5 -rotate-90 " src="https://i.postimg.cc/RVXTYGcS/right-arrow.png" alt="">
+                </div>
+                <div class="flex flex-wrap gap-3 md:gap-4 mb-5 mt-2.5">
+                    <input type="checkbox" name="option" id=""
+                        class="appearance-none bg-secondary w-24 h-10 rounded-3xl  transition-all relative before:absolute before:content-['XX-Small'] before:text-black before:inset-0 before:m-auto before:w-20 before:h-10 before:place-content-center  before:text-center checked:bg-black checked:before:text-white cursor-pointer">
+                    <input type="checkbox" name="option" id=""
+                        class="appearance-none bg-secondary w-24 h-10 rounded-3xl  transition-all relative before:absolute before:content-['X-Small'] before:text-black before:inset-0 before:m-auto before:w-20 before:h-20 before:place-content-center  before:text-center checked:bg-black checked:before:text-white cursor-pointer">
+                    <input type="checkbox" name="option" id=""
+                        class="appearance-none bg-secondary w-24 h-10 rounded-3xl  transition-all relative before:absolute before:content-['Small'] before:text-black before:inset-0 before:m-auto before:w-20 before:h-20 before:place-content-center  before:text-center checked:bg-black checked:before:text-white cursor-pointer">
+                    <input type="checkbox" name="option" id=""
+                        class="appearance-none bg-secondary w-24 h-10 rounded-3xl  transition-all relative before:absolute before:content-['Medium'] before:text-black before:inset-0 before:m-auto before:w-20 before:h-20 before:place-content-center  before:text-center checked:bg-black checked:before:text-white cursor-pointer">
+                    <input type="checkbox" name="option" id=""
+                        class="appearance-none bg-secondary w-24 h-10 rounded-3xl  transition-all relative before:absolute before:content-['Large'] before:text-black before:inset-0 before:m-auto before:w-20 before:h-20 before:place-content-center  before:text-center checked:bg-black checked:before:text-white cursor-pointer">
+                    <input type="checkbox" name="option" id=""
+                        class="appearance-none bg-secondary w-24 h-10 rounded-3xl  transition-all relative before:absolute before:content-['X-Lage'] before:text-black before:inset-0 before:m-auto before:w-20 before:h-20 before:place-content-center  before:text-center checked:bg-black checked:before:text-white cursor-pointer">
+                    <input type="checkbox" name="option" id=""
+                        class="appearance-none bg-secondary w-24 h-10 rounded-3xl  transition-all relative before:absolute before:content-['XX-Large'] before:text-black before:inset-0 before:m-auto before:w-20 before:h-20 before:place-content-center  before:text-center checked:bg-black checked:before:text-white cursor-pointer">
+                    <input type="checkbox" name="option" id=""
+                        class="appearance-none bg-secondary w-24 h-10 rounded-3xl  transition-all relative before:absolute before:content-['3X-Large'] before:text-black before:inset-0 before:m-auto before:w-20 before:h-20 before:place-content-center  before:text-center checked:bg-black checked:before:text-white cursor-pointer">
+                    <input type="checkbox" name="option" id=""
+                        class="appearance-none bg-secondary w-24 h-10 rounded-3xl  transition-all relative before:absolute before:content-['4X-Large'] before:text-black before:inset-0 before:m-auto before:w-20 before:h-20 before:place-content-center  before:text-center checked:bg-black checked:before:text-white cursor-pointer">
+                </div>
+                <hr class="w-11.5/12 h-[1px] text-gray-300 mx-auto my-5">
+                <div class="flex justify-between items-center mb-4">
+                    <h4 class="text-black text-[1.2rem]">Dress Style</h4>
+                    <img class="w-5 h-5 -rotate-90 " src="https://i.postimg.cc/RVXTYGcS/right-arrow.png" alt="">
+                </div>
+                <div>
+                    <ul>
+                        <li class="flex justify-between items-center mb-4">
+                            <h6>Casual</h6> <img src="https://i.postimg.cc/RVXTYGcS/right-arrow.png" alt="">
+                        </li>
+                        <li class="flex justify-between items-center mb-4">
+                            <h6>Formal</h6> <img src="https://i.postimg.cc/RVXTYGcS/right-arrow.png" alt="">
+                        </li>
+                        <li class="flex justify-between items-center mb-4">
+                            <h6>Party</h6> <img src="https://i.postimg.cc/RVXTYGcS/right-arrow.png" alt="">
+                        </li>
+                        <li class="flex justify-between items-center mb-4">
+                            <h6>Gym</h6> <img src="https://i.postimg.cc/RVXTYGcS/right-arrow.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <button class="primary_button my-8 "> Apply Filter</button>
+
+
+            </div>
+            <!-- Right Product Container -->
+            <div class="md:w-9/12  px-5 md:px-0">
+                <div class="flex justify-between items-center mb-4">
+                    <h4 class="text-black text-[1.2rem]">Casual</h4>
+                    <img class="w-8 h-8 block md:hidden bg-secondary p-2 rounded-full"
+                        src="https://i.postimg.cc/9fGGDWzJ/setting-icon.png" alt="">
+                    <span class="hidden md:block">showing 1-10 of Products Sort By: <h6 class=" inline-block">Most
+                            Popular
+                            <img class="w-4 h-4 inline-block" src="https://i.postimg.cc/Wb9K0KvM/down-arrow.png" alt="">
+                        </h6>
+                    </span>
+                </div>
+                <!-- Product  -->
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-5 justify-between md:w-full">
+                    <!-- Product-1 -->
+                    <div>
+                        <div class=""><img class="p_img" src="https://i.postimg.cc/bJ8L7HPy/shirt-1.webp" alt="">
+                        </div>
+                        <h4 class="p_title mt-3">T-SHIRT WITH TAPE DETAILS </h4>
+                        <!-- rating -->
+                        <div class="flex">
+                            <div class="r_icon flex ">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-2" src="https://i.postimg.cc/VsK4hCVw/Star-half.png" alt="">
+                            </div>
+                            <div class="rating ml-2">4.5/<span class="text-gray-400">5</span></div>
+                        </div>
+                        <!-- Price -->
+                        <div class="flex items-center mt-1">
+                            <h4 class="p_price text-black">$212</h4>
+                            <h4 class="p_price_off ml-2">$232</h4>
+                            <h6 class="p_price_less bg-secondary px-4 py-1 rounded-3xl ml-3"> -20%</h6>
+                        </div>
+                    </div>
+                    <!-- Product-2 -->
+                    <div>
+                        <div class=""><img class="p_img" src="https://i.postimg.cc/TYhQv3zD/t-shirt-2.webp" alt="">
+                        </div>
+                        <h4 class="p_title mt-3">T-SHIRT WITH TAPE DETAILS </h4>
+                        <!-- rating -->
+                        <div class="flex">
+                            <div class="r_icon flex ">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-2" src="https://i.postimg.cc/VsK4hCVw/Star-half.png" alt="">
+                            </div>
+                            <div class="rating ml-2">4.5/<span class="text-gray-400">5</span></div>
+                        </div>
+                        <!-- Price -->
+                        <div class="flex items-center mt-1">
+                            <h4 class="p_price text-black">$212</h4>
+                            <h4 class="p_price_off ml-2">$232</h4>
+                            <h6 class="p_price_less bg-secondary px-4 py-1 rounded-3xl ml-3"> -20%</h6>
+                        </div>
+                    </div>
+                    <!-- Product-3 -->
+                    <div>
+                        <div class=""><img class="p_img" src="https://i.postimg.cc/5tWmzq6B/t-shirt-1.png" alt="">
+                        </div>
+                        <h4 class="p_title mt-3">T-SHIRT WITH TAPE DETAILS </h4>
+                        <!-- rating -->
+                        <div class="flex">
+                            <div class="r_icon flex ">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-2" src="https://i.postimg.cc/VsK4hCVw/Star-half.png" alt="">
+                            </div>
+                            <div class="rating ml-2">4.5/<span class="text-gray-400">5</span></div>
+                        </div>
+                        <!-- Price -->
+                        <div class="flex items-center mt-1">
+                            <h4 class="p_price text-black">$212</h4>
+                            <h4 class="p_price_off ml-2">$232</h4>
+                            <h6 class="p_price_less bg-secondary px-4 py-1 rounded-3xl ml-3"> -20%</h6>
+                        </div>
+                    </div>
+                    <!-- Product-4 -->
+                    <div>
+                        <div class=""><img class="p_img" src="https://i.postimg.cc/bJ8L7HPy/shirt-1.webp" alt="">
+                        </div>
+                        <h4 class="p_title mt-3">T-SHIRT WITH TAPE DETAILS </h4>
+                        <!-- rating -->
+                        <div class="flex">
+                            <div class="r_icon flex ">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-2" src="https://i.postimg.cc/VsK4hCVw/Star-half.png" alt="">
+                            </div>
+                            <div class="rating ml-2">4.5/<span class="text-gray-400">5</span></div>
+                        </div>
+                        <!-- Price -->
+                        <div class="flex items-center mt-1">
+                            <h4 class="p_price text-black">$212</h4>
+                            <h4 class="p_price_off ml-2">$232</h4>
+                            <h6 class="p_price_less bg-secondary px-4 py-1 rounded-3xl ml-3"> -20%</h6>
+                        </div>
+                    </div>
+                    <!-- Product-1 -->
+                    <div>
+                        <div class=""><img class="p_img" src="https://i.postimg.cc/bJ8L7HPy/shirt-1.webp" alt="">
+                        </div>
+                        <h4 class="p_title mt-3">T-SHIRT WITH TAPE DETAILS </h4>
+                        <!-- rating -->
+                        <div class="flex">
+                            <div class="r_icon flex ">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-2" src="https://i.postimg.cc/VsK4hCVw/Star-half.png" alt="">
+                            </div>
+                            <div class="rating ml-2">4.5/<span class="text-gray-400">5</span></div>
+                        </div>
+                        <!-- Price -->
+                        <div class="flex items-center mt-1">
+                            <h4 class="p_price text-black">$212</h4>
+                            <h4 class="p_price_off ml-2">$232</h4>
+                            <h6 class="p_price_less bg-secondary px-4 py-1 rounded-3xl ml-3"> -20%</h6>
+                        </div>
+                    </div>
+                    <!-- Product-2 -->
+                    <div>
+                        <div class=""><img class="p_img" src="https://i.postimg.cc/TYhQv3zD/t-shirt-2.webp" alt="">
+                        </div>
+                        <h4 class="p_title mt-3">T-SHIRT WITH TAPE DETAILS </h4>
+                        <!-- rating -->
+                        <div class="flex">
+                            <div class="r_icon flex ">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-2" src="https://i.postimg.cc/VsK4hCVw/Star-half.png" alt="">
+                            </div>
+                            <div class="rating ml-2">4.5/<span class="text-gray-400">5</span></div>
+                        </div>
+                        <!-- Price -->
+                        <div class="flex items-center mt-1">
+                            <h4 class="p_price text-black">$212</h4>
+                            <h4 class="p_price_off ml-2">$232</h4>
+                            <h6 class="p_price_less bg-secondary px-4 py-1 rounded-3xl ml-3"> -20%</h6>
+                        </div>
+                    </div>
+                    <!-- Product-3 -->
+                    <div>
+                        <div class=""><img class="p_img" src="https://i.postimg.cc/5tWmzq6B/t-shirt-1.png" alt="">
+                        </div>
+                        <h4 class="p_title mt-3">T-SHIRT WITH TAPE DETAILS </h4>
+                        <!-- rating -->
+                        <div class="flex">
+                            <div class="r_icon flex ">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-2" src="https://i.postimg.cc/VsK4hCVw/Star-half.png" alt="">
+                            </div>
+                            <div class="rating ml-2">4.5/<span class="text-gray-400">5</span></div>
+                        </div>
+                        <!-- Price -->
+                        <div class="flex items-center mt-1">
+                            <h4 class="p_price text-black">$212</h4>
+                            <h4 class="p_price_off ml-2">$232</h4>
+                            <h6 class="p_price_less bg-secondary px-4 py-1 rounded-3xl ml-3"> -20%</h6>
+                        </div>
+                    </div>
+                    <!-- Product-4 -->
+                    <div>
+                        <div class=""><img class="p_img" src="https://i.postimg.cc/bJ8L7HPy/shirt-1.webp" alt="">
+                        </div>
+                        <h4 class="p_title mt-3">T-SHIRT WITH TAPE DETAILS </h4>
+                        <!-- rating -->
+                        <div class="flex">
+                            <div class="r_icon flex ">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-2" src="https://i.postimg.cc/VsK4hCVw/Star-half.png" alt="">
+                            </div>
+                            <div class="rating ml-2">4.5/<span class="text-gray-400">5</span></div>
+                        </div>
+                        <!-- Price -->
+                        <div class="flex items-center mt-1">
+                            <h4 class="p_price text-black">$212</h4>
+                            <h4 class="p_price_off ml-2">$232</h4>
+                            <h6 class="p_price_less bg-secondary px-4 py-1 rounded-3xl ml-3"> -20%</h6>
+                        </div>
+                    </div>
+                    <!-- Product-3 -->
+                    <div>
+                        <div class=""><img class="p_img" src="https://i.postimg.cc/5tWmzq6B/t-shirt-1.png" alt="">
+                        </div>
+                        <h4 class="p_title mt-3">T-SHIRT WITH TAPE DETAILS </h4>
+                        <!-- rating -->
+                        <div class="flex">
+                            <div class="r_icon flex ">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-4" src="https://i.postimg.cc/mkpw1vHk/Star-1.png" alt="">
+                                <img class="w-2" src="https://i.postimg.cc/VsK4hCVw/Star-half.png" alt="">
+                            </div>
+                            <div class="rating ml-2">4.5/<span class="text-gray-400">5</span></div>
+                        </div>
+                        <!-- Price -->
+                        <div class="flex items-center mt-1">
+                            <h4 class="p_price text-black">$212</h4>
+                            <h4 class="p_price_off ml-2">$232</h4>
+                            <h6 class="p_price_less bg-secondary px-4 py-1 rounded-3xl ml-3"> -20%</h6>
+                        </div>
+                    </div>
+                </div>
+                <hr class="w-11.5/12 h-[1px] text-gray-300 mx-auto my-5">
+                <!-- Pagination -->
+                <div class="flex justify-between items-center gap-4 ">
+                    <a href="#" class="min-h-8 min-w-20 bg-secondary rounded py-2 px-4"> <img
+                            class="h-3 w-3 inline-block mr-3"
+                            src="https://i.postimg.cc/T1HpsDyt/left-arrow-button-slim.png" alt="">Previous</a>
+                    <div> <button>
+                            <ul class="flex gap-3">
+                                <li><a href="#"
+                                        class="px-3 py-2 rounded bg-secondary hover:bg-secondary active:bg-secondary">1</a>
+                                </li>
+                                <li><a href="#" class="px-3 py-2 rounded hover:bg-secondary active:bg-secondary">2</a>
+                                </li>
+                                <li class="hidden md:block"><a href="#"
+                                        class="px-3 py-2 rounded hover:bg-secondary active:bg-secondary">3</a>
+                                </li>
+                                <li><a href="#" class="px-3 py-2 rounded hover:bg-secondary active:bg-secondary">...</a>
+                                </li>
+                                <li class="hidden md:block"><a href="#"
+                                        class="px-3 py-2 rounded hover:bg-secondary active:bg-secondary">8</a>
+                                </li>
+                                <li><a href="#" class="px-3 py-2 rounded hover:bg-secondary active:bg-secondary">9</a>
+                                </li>
+                                <li><a href="#" class="px-3 py-2 rounded hover:bg-secondary active:bg-secondary">10</a>
+                                </li>
+                            </ul>
+                    </div>
+                    <a href="#" class="min-h-8 min-w-20 bg-secondary rounded py-2 px-4"> Next<img
+                            class="h-3 w-3 inline-block ml-3 rotate-180"
+                            src="https://i.postimg.cc/T1HpsDyt/left-arrow-button-slim.png" alt=""></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
