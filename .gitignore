@@ -1,3 +1,9 @@
+*.log
 node_modules/
-package.json
+.env
+.cache/
+.vscode/
+.idea/
+.DS_Store
 package-lock.json
+shop.co/package.json
